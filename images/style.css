@@ -1,0 +1,133 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: rgb(229, 240, 250);
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 0;
+  margin: 0 21px;
+  text-align: center;
+  max-width: 380px;
+  width: 100%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 7px 23px hsla(245, 75%, 52%, 0.11);
+}
+section .img-1 {
+  align-content: flex-start;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+.article1 {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.article1 h1 {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: hsl(223, 47%, 23%);
+}
+.article1 p {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 32px;
+  margin-top: 15px;
+  line-height: 18px;
+}
+.article2 {
+  border: solid 1px transparent;
+  background: hsl(240, 69%, 97%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 14px;
+  margin-bottom: 32px;
+  padding: 21px;
+}
+
+.article2 .meio {
+  flex-grow: 1;
+  text-align: left;
+}
+.article2 img {
+  margin-right: clamp(15px, 4vw, 25px);
+}
+.article2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  margin-top: 4px;
+  color: hsl(224, 23%, 55%);
+}
+.article2 h3 {
+  color: hsl(223, 47%, 23%);
+}
+.article2 button {
+  border: none;
+  text-decoration: underline;
+  background-color: transparent;
+  color: hsl(245, 75%, 52%);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 150ms ease all;
+}
+.article2 button:hover {
+  color: rgb(177, 117, 236);
+}
+.div-button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+.prosseguir-btn {
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  font-weight: 600;
+  box-shadow: 0 13px 12px hsla(245, 75%, 52%, 0.253);
+  cursor: pointer;
+  transition: 150ms ease all;
+}
+.prosseguir-btn:hover {
+  background-color: rgb(177, 117, 236);
+}
+
+.cancelar-btn {
+  border: none;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  font-weight: 600;
+  height: 50px;
+  cursor: pointer;
+  transition: 150ms ease all;
+}
+.cancelar-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
