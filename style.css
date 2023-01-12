@@ -25,13 +25,13 @@ section {
   max-width: 380px;
   width: 100%;
   background: white;
-  border-radius: 30px;
+  border-radius: 23px;
   box-shadow: 0 7px 23px hsla(245, 75%, 52%, 0.11);
 }
 section .img-1 {
   align-content: flex-start;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
   max-width: 400px;
   width: 100%;
 }
