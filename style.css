@@ -1,7 +1,7 @@
 body {
   background-image: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-color: rgb(229, 240, 250);
+  background-color: pink;
   background-size: contain;
 
   display: flex;
