@@ -79,6 +79,7 @@ section .img-1 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   margin-top: 4px;
+  font-size: 14px;
   color: hsl(224, 23%, 55%);
 }
 .article2 h3 {
